@@ -47,6 +47,7 @@ Thumbs.db
 .bmad-core/temp/
 .bmad-core/cache/
 *.bmad.tmp
+*.bmad-core
 
 # Testing
 coverage/
