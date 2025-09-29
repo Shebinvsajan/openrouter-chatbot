@@ -42,12 +42,7 @@ yarn-error.log*
 ehthumbs.db
 Thumbs.db
 
-# Bmad related
-.bmad-core/logs/
-.bmad-core/temp/
-.bmad-core/cache/
-*.bmad.tmp
-*.bmad-core
+
 
 # Testing
 coverage/
