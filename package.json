@@ -1,0 +1,45 @@
+{
+  "name": "openrouter-chatbot",
+  "version": "1.0.0",
+  "description": "A customizable AI chatbot component for React applications",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "dev": "tsc -w -p tsconfig.esm.json",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "react",
+    "chatbot",
+    "ai",
+    "component",
+    "openrouter",
+    "customer-support"
+  ],
+  "author": "Vite Project Team",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "lucide-react": "^0.544.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "GUIDE.md",
+    "CUSTOMIZATION_TUTORIAL.md",
+    "SUMMARY.md",
+    "FINAL_SUMMARY.md"
+  ]
+}
